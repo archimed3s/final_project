@@ -1,0 +1,71 @@
+// fonts
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?64169252');
+  src: url('../fonts/fontello.eot?64169252#iefix') format('embedded-opentype'),
+  url('../fonts/fontello.woff?64169252') format('woff'),
+  url('../fonts/fontello.ttf?64169252') format('truetype'),
+  url('../fonts/fontello.svg?64169252#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Attention! The style box-sizing: border-box is used for all elements.
+*{
+  box-sizing: border-box;
+}
+
+// reset or normalise css depending on what I need to implement
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background: url("../img/bg-textures.png") repeat;
+  overflow: hidden;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+a, input{
+  outline: none;
+}
+
+// variables
+@mainColor: white;
+@orangeColor: #ffb649;
+
+// mixins
+.transition{
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.text-transform{
+  text-transform: uppercase;
+}
+.border-radius{
+  border-radius: 6px;
+}
+.box-shadow-primary{
+  box-shadow: inset 0px 0px 0px 1px rgba(136, 136, 136, 1), 0px 0px 7px 1px rgba(0, 0, 0, 0.5);
+}
+.box-shadow-secondary{
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+// first block in top of the site
+.upper-block{
+  overflow: hidden;
+}
+
+// slider
+@import url('slider.less');
+
+// header
+@import url('header.less');
+
+// main
+@import url('main.less');

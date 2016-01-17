@@ -1,0 +1,25 @@
+.slider li{
+    height: 653px;
+}
+main{
+    height: 600px;
+}
+.content .content-wrapper {
+    height: 450px;
+}
+main .content .content-wrapper > div > div{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+main .content .content-wrapper > div > div.vid-aud-text{
+    width: 100%;
+    text-align: left;
+}
+main .content .content-wrapper > div > div .image{
+    width: 140px;
+    height: 140px;
+    background: no-repeat center center;
+}
