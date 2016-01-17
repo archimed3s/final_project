@@ -11,4 +11,4 @@ There is done search by title to a file json.
 There is done switching to a single element.
 Working breadcrumbs for a site map.
 There is done image gallery page.
-All this made as SPA - Single Page Aplication.
+All this made as SPA - Single Page Application.
