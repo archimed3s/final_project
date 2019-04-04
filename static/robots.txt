@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: https://kepler.finance/card-company
+Disallow: https://kepler.finance/card-investor
+Disallow: https://kepler.finance/card-service
+Disallow: https://kepler.finance/deals

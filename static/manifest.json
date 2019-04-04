@@ -1,0 +1,21 @@
+{
+  "short_name": "Kepler",
+  "name": "Kepler Finance",
+  "icons": [
+    {
+      "src": "https://kepler.finance/static/images/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://kepler.finance/static/images/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f5f6f8",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#262a30"
+}

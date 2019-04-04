@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules",
+    "server/**/*.test.ts"
+  ],
+  "watch": [
+    "routes",
+    "server"
+  ],
+  "ext": "ts",
+  "exec": "ts-node --project tsconfig.server.json server/index.ts"
+}
